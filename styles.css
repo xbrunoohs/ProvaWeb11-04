@@ -1,0 +1,143 @@
+body {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+main {
+    background-color: #F7F8F7;
+}
+
+h1 {
+    font-size: 50px;    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+    padding-right: 5px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.down-arrow {
+    width: 8px;
+    padding-left: 4px;
+}
+
+#home {
+    background-color: #CAFAD9;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.home-text {
+    align-items: center;
+    width: 30%;
+}
+
+.second-section {
+    justify-content: center;
+}
+
+.buttons-home {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.button-style-1 {
+    background-color: #7622D7;
+    border-radius: 30px;
+    padding: 16px;
+    color: white;
+    border-color: #7622D7;
+}
+
+.button-style-2 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 16px;
+    border-color: black;
+}
+
+#contrate {
+    background-color: #CAFAD9;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contrate-text {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+}
+
+.footer-1 {
+    text-align: right;
+    height: 325px;
+}
+
+.footer-2 {
+    text-align: left;
+}
+
+.social-media {
+    width: 50px;
+    padding-right: 4px;
+}
+
+.social-media-columns {
+    display: flex;
+    width: 5%;
+}
+
+.divisions-footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+}
